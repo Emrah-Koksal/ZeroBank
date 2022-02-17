@@ -13,7 +13,8 @@ Feature: Accounts Activity Module Functions -Navigating to specific accounts in 
     And Verify Transactions table column names
 #       mike
 #  mike second commit
-
+#//mike change 222
+# mike branch conflict
 
   Scenario Outline: Navigating and Verifying <select> accounts
     When the user clicks on <linkName> link on the <moduleName> page
