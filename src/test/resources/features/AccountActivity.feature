@@ -11,8 +11,8 @@ Feature: Accounts Activity Module Functions -Navigating to specific accounts in 
     And Verify drop down option should be as "Savings"
     And Verify Account drop down menu options
     And Verify Transactions table column names
-//mike
-
+#//mike change 222
+# mike branch conflict
   Scenario Outline: Navigating and Verifying <select> accounts
     When the user clicks on <linkName> link on the <moduleName> page
     Then the <expectedTitle> should be displayed
